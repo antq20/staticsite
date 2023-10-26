@@ -1,0 +1,66 @@
+#carousel {
+    position: relative;
+    width: 100vw;
+    height: 400vh; /* Adjust the height as needed */
+  }
+#start-logo{
+position: absolute;
+top: 5%;
+left: 40%;
+opacity: 40%;
+}
+#start-logo:hover{
+    opacity: 100%;
+}
+
+#carousel-text{
+    color:white;
+    font-family: "Montserrat";
+    font-weight: 300;
+    font-style: italic;
+    text-shadow: -1px -1px 0 #000,  
+    1px -1px 0 #000,
+   -1px 1px 0 #000,
+    1px 1px 0 #000;
+    position: absolute;
+    font-size: 30px;
+    top: 12%;
+    left: 25%;
+}
+
+.carousel-image{
+height: 100vh;
+width: 100vw;
+object-fit: cover;
+}
+
+header{
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    justify-content:space-between;
+  }
+
+/* #logo{
+    display: flex;
+    justify-content: center;
+} */
+
+nav{
+    display: block;
+    color: #f2f2f2;
+    display: flex;
+    /* justify-content: flex-end; */
+    justify-content: flex-end;  
+    flex-direction: row; 
+    font-size: medium;
+    justify-content: space-between 5px;
+
+ }
+ a:visited{
+    color: white;
+
+ }
+
+  
+  

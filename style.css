@@ -1,13 +1,18 @@
+body{
+    margin: 0;
+}
 #carousel {
     position: relative;
     width: 100vw;
-    height: 400vh; /* Adjust the height as needed */
+    height: 100vh; /* Adjust the height as needed */
   }
 #start-logo{
 position: absolute;
-top: 5%;
-left: 40%;
+top: 15%;
+left: 45%;
+
 opacity: 40%;
+
 }
 #start-logo:hover{
     opacity: 100%;
@@ -24,8 +29,8 @@ opacity: 40%;
     1px 1px 0 #000;
     position: absolute;
     font-size: 30px;
-    top: 12%;
-    left: 25%;
+    top: 40%;
+    left: 37%;
 }
 
 .carousel-image{
@@ -41,26 +46,100 @@ header{
     justify-content:space-between;
   }
 
-/* #logo{
-    display: flex;
-    justify-content: center;
-} */
-
 nav{
     display: block;
     color: #f2f2f2;
     display: flex;
-    /* justify-content: flex-end; */
-    justify-content: flex-end;  
+    align-items: center;
     flex-direction: row; 
-    font-size: medium;
-    justify-content: space-between 5px;
+    font-size: 15px;
+
 
  }
+
+nav a{
+    margin-right: 30px;
+    text-decoration: none;
+    font-family: "Montserrat"
+}
  a:visited{
     color: white;
-
+    font-family: "Montserrat";
  }
+
+
+h2{
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 30px;
+}
+
+.flex{
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: "Montserrat";
+    font-size: 30px;
+    font-style: bold;
+}
+
+#productmockup{
+    display: flex;
+    justify-content: center;
+}
+
+#portfolio{
+    background-color: rgb(39, 39, 39);
+    height: 50vh;
+    font-family: "Montserrat";
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+button{
+    background-color: rgb(16, 80, 75);
+    height: 30px;
+    width: 400px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 10px #06984a;
+    font-family: "Montserrat";
+    color: white;
+    font-size: large;
+}
+
+button:hover{
+background-color: rgb(12, 57, 53);
+cursor:pointer ;
+box-shadow: 0px 5px 10px rgb(12, 255, 12);
+}
+
+
+.wrap{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.wrap p{
+    font-size: small;
+    margin-right: 50px ;
+    margin-left: 30px;
+}
+
+.projects button{
+    margin-left: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
   
   
